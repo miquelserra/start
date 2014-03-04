@@ -1,20 +1,37 @@
 
 <head>
-   <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
-        <title>Mallorcaio</title>
-        
-        <meta name="description" content="">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Mallorcaio</title>
+
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- tipografía de google -->
-   <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
 </head>
 
+
+
+
+
+
+
 <template name="layout">
+
+<!--  aqui es el header  -->
 {{yield 'header'}}
-  {{yield}}
+
+
+<!-- aqui es todo lo que hay en medio -->
+{{yield}}
+
+
+<!-- aqui es el footer -->
 {{yield 'footer'}}
+
+
  </template>
